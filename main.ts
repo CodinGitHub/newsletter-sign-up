@@ -5,8 +5,6 @@ const modal = document.querySelector('dialog');
 const dismissBtn = document.querySelector('#dismiss-btn');
 const userEmail = document.querySelector('#user-email') as HTMLSpanElement;
 
-let email: string;
-
 form?.addEventListener('submit', (e: SubmitEvent)=> {
   e.preventDefault();
   if(emailInput.value.trim() === ""){
