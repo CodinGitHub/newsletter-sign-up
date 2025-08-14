@@ -41,7 +41,11 @@
         </form>
       </div>
     </section>
-    <dialog class="pt-[125px] w-[375px] inset-0 m-auto p-6 sm:w-[504px] sm:p-16 sm:rounded-[36px]">
+    <dialog
+      role="alertdialog"
+      aria-live="assertive"
+      aria-modal="true" 
+      class="pt-[125px] w-[375px] inset-0 m-auto p-6 sm:w-[504px] sm:p-16 sm:rounded-[36px]">
       <img class="mb-8" src="./assets/images/icon-success.svg" alt="icon success">
       <h2 class="font-bold text-[2.5rem] mb-8">Thanks for subscribing!</h2>
       <p class="mb-[160px] sm:mb-10">A confirmation email has been sent to <span id="user-email" class="font-bold">ash@loremcompany.com</span>. Please open it and click the button inside to confirm your subscription.</p>
